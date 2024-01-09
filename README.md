@@ -1,24 +1,55 @@
-# DVWA Installation
+# DVWA Installation Guide for Beginners
 
-## Prerequisites of installation
+## Prerequisites
 
-- You should have installed `kali` or `wsl` or any other distro linux
-- You need git to install if you don't have use this command below.
+Before installing Damn Vulnerable Web Application (DVWA), ensure the following:
+
+- You have a Linux distribution installed, such as Kali, WSL (Windows Subsystem for Linux), or any other Linux distro.
+- Git is required for the installation. If not installed, use the following command:
 
     ```bash  
     sudo apt-get install git
     ```
 
-## Installation
+## Installation Steps
 
-Open terminal and use the following command if it asks for password of kali give it
+1. Open the terminal, and when prompted for the Kali password, provide it.
 
-```bash  
-cd ~ && git clone https://github.com/skabdulhaq/DVWA_installation && cd DVWA_installation && chmod +x * && sudo cp start_DVWA.sh /bin/ && cd .. && rm -rf DVWA_installation
-```
+    ```bash  
+    cd ~ && git clone https://github.com/skabdulhaq/DVWA_installation && cd DVWA_installation && chmod +x * && sudo cp start_DVWA.sh /bin/ && cd .. && rm -rf DVWA_installation
+    ```
 
-To Start DVWA Everytime run this commands
+    <details>
 
-```bash  
-./start_DVWA.sh
-```
+    <summary>
+        Click to see explanation
+    </summary>
+
+    This command performs the following steps:
+
+    - Changes to the home directory (`cd ~`).
+    - Clones the DVWA installation repository from GitHub (`git clone https://github.com/skabdulhaq/DVWA_installation`).
+    - Navigates into the DVWA installation directory (`cd DVWA_installation`).
+    - Makes all scripts executable (`chmod +x *`).
+    - Copies the `start_DVWA.sh` script to the system's binary directory (`sudo cp start_DVWA.sh /bin/`).
+    - Returns to the home directory (`cd ..`).
+    - Removes the DVWA installation directory (`rm -rf DVWA_installation`).
+
+    </details>
+
+2. To start DVWA every time, use this command in the terminal:
+
+    ```bash  
+    start_DVWA.sh
+    ```
+
+3. DVWA is now running successfully. Access it through [http://localhost:1337/](http://localhost:1337/).
+
+## How to Stop DVWA
+
+You have two options:
+
+- Simply close the terminal where `start_DVWA.sh` is running.
+- To stop DVWA manually, go to the terminal running the `start_DVWA.sh` script and press `ctrl+c`.
+
+Now, you've completed the installation and learned how to start and stop DVWA. Happy exploring!
