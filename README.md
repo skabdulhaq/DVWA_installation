@@ -16,7 +16,20 @@ Before installing Damn Vulnerable Web Application (DVWA), ensure the following:
 1. Open the terminal, and when prompted for the Kali password, provide it.
 
     ```bash  
-    cd ~ && git clone https://github.com/skabdulhaq/DVWA_installation && cd DVWA_installation && chmod +x * && sudo cp start_DVWA.sh /bin/ && cd .. && rm -rf DVWA_installation
+    cd ~ && git clone https://github.com/skabdulhaq/DVWA_installation && cd DVWA_installation && chmod +x * && sudo cp start_DVWA.sh /bin/ && cd ~ && rm -rf DVWA_installation && clear && echo $'installation completed successfully\n\n\n\nEnter this command to start DVWA\nstart_DVWA.sh'
+    ```
+
+    Pro tip use your own hotspot insted of college wifi :)
+
+    You can see text is running on your terminal be patient setback and relax until you can below message in terminal 
+
+    ```bash
+    installation completed successfully
+    
+
+
+    Enter this command to start DVWA
+    start_DVWA.sh
     ```
 
     <details>
@@ -43,7 +56,7 @@ Before installing Damn Vulnerable Web Application (DVWA), ensure the following:
     start_DVWA.sh
     ```
 
-3. DVWA is now running successfully. Access it through [http://localhost:1337/](http://localhost:1337/).
+3. DVWA is now running successfully. Access it through <a href="http://localhost:1337/" target="_blank">http://localhost:1337/</a>.
 
 ## How to Stop DVWA
 
