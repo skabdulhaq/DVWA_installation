@@ -7,7 +7,7 @@ Before installing Damn Vulnerable Web Application (DVWA), ensure the following:
 - You have a Linux distribution installed, such as Kali, WSL (Windows Subsystem for Linux), or any other Linux distro.
 - Git is required for the installation. If not installed, use the following command:
 
-    ```bash  
+    ```bash
     sudo apt-get install git
     ```
 
@@ -23,7 +23,7 @@ Before installing Damn Vulnerable Web Application (DVWA), ensure the following:
 
     You can see text is running on your terminal be patient setback and relax until you can below message in terminal 
 
-    ```bash
+    ```text
     installation completed successfully
     
 
