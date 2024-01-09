@@ -73,4 +73,19 @@ You have two options:
 - Simply close the terminal where `start_DVWA.sh` is running.
 - To stop DVWA manually, go to the terminal running the `start_DVWA.sh` script and press `ctrl+c`.
 
+## Troubleshoot
+
+Run
+
+```bash
+sudo dockerd
+```
+
+check the error and if it's reated to iptables then use these.
+
+```bash
+sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
+```
+
 Now, you've completed the installation and learned how to start and stop DVWA. Happy exploring!
