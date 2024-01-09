@@ -8,5 +8,5 @@ else
     echo "Docker is not installed. Installing..."
     curl https://get.docker.com/ | sh
 fi
-service docker start
-docker run --rm --name DVWA -it -p 1337:80 vulnerables/web-dvwa
+sudo service docker start
+sudo docker run --rm --name DVWA -it -p 1337:80 vulnerables/web-dvwa
