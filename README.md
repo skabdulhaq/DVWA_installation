@@ -11,12 +11,16 @@ Before installing Damn Vulnerable Web Application (DVWA), ensure the following:
     sudo apt-get install git
     ```
 
+Ignore this if you are using `kali`
+
+- If you are using WSL make sure you use WSL2 here are instuctions <a href="https://www.youtube.com/watch?v=OAtcxnNlSic" target="_blank">Updating WSL</a>.
+
 ## Installation Steps
 
 1. Open the terminal, and while running this command when prompted for the Kali password, provide it.
 
     ```bash  
-    cd ~ && git clone https://github.com/skabdulhaq/DVWA_installation && cd DVWA_installation && chmod +x * && sudo cp ./start_DVWA.sh /bin/ && cd ~ && rm -rf DVWA_installation && clear && echo $'installation completed successfully\n\n\n\nEnter this command to start DVWA\nstart_DVWA.sh'
+    cd ~ && git clone https://github.com/skabdulhaq/DVWA_installation && cd DVWA_installation && chmod +x * && sudo cp ./start_DVWA.sh /bin/ && cd ~ && rm -rf DVWA_installation && gpasswd -a $USER docker && sudo dockerd && clear && echo $'installation completed successfully\n\n\n\nEnter this command to start DVWA\nstart_DVWA.sh'
     ```
 
     Pro tip use your own hotspot insted of college wifi :)
