@@ -14,7 +14,7 @@
 Open terminal and use the following command if it asks for password of kali give it
 
 ```bash  
-cd ~ && git clone && cd DVWA_installation && chmod +x * && sudo cp start_DVWA.sh /bin/ && cd .. && 
+cd ~ && git clone https://github.com/skabdulhaq/DVWA_installation && cd DVWA_installation && chmod +x * && sudo cp start_DVWA.sh /bin/ && cd .. && rm -rf DVWA_installation
 ```
 
 To Start DVWA Everytime run this commands
