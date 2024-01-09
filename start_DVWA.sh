@@ -9,4 +9,4 @@ else
     curl https://get.docker.com/ | sh
 fi
 sudo service docker start
-docker run --rm --name DVWA -it -p 1337:80 vulnerables/web-dvwa
+sudo docker run --rm --name DVWA -it -p 1337:80 vulnerables/web-dvwa
