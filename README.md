@@ -1,4 +1,4 @@
-# DVWA Installation Guide for Beginners
+# DVWA Installation Guide
 
 ## Prerequisites
 
