@@ -56,6 +56,10 @@ Before installing Damn Vulnerable Web Application (DVWA), ensure the following:
     start_DVWA.sh
     ```
 
+    You will see something like this in your terminal then you are ready to go.
+
+    ![image.png](https://imgur.com/a/V4hh44A)
+
 3. DVWA is now running successfully. Access it through <a href="http://localhost:1337/" target="_blank">http://localhost:1337/</a>.
 
 ## How to Stop DVWA
