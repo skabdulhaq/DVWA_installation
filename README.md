@@ -55,7 +55,7 @@ Ignore this if you are using `kali`
     </details>
 
 2. To start DVWA every time, use this command in the terminal:
-
+3. if you are running this for the first time it will require internet 
     ```bash  
     sudo start_DVWA.sh
     ```
@@ -64,7 +64,7 @@ Ignore this if you are using `kali`
 
     ![image.png](https://i.imgur.com/Z5I9VLu.png)
 
-3. DVWA is now running successfully. Access it through <a href="http://localhost:1337/" target="_blank">http://localhost:1337/</a>.
+4. DVWA is now running successfully. Access it through <a href="http://localhost:1337/" target="_blank">http://localhost:1337/</a>.
 
 ## How to Stop DVWA
 
