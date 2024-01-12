@@ -20,7 +20,7 @@ Ignore this if you are using `kali`
 1. Open the terminal, and while running this command when prompted for the Kali password, provide it.
 
     ```bash  
-    cd ~ && git clone https://github.com/skabdulhaq/DVWA_installation && cd DVWA_installation && chmod +x * && sudo cp ./start_DVWA.sh /bin/ && cd ~ && rm -rf DVWA_installation && gpasswd -a $USER docker && clear && echo $'installation completed successfully\n\n\n\nEnter this command to start DVWA\nstart_DVWA.sh'
+    curl https://raw.githubusercontent.com/skabdulhaq/DVWA_installation/main/setup.sh | sh
     ```
 
     Pro tip use your own hotspot insted of college wifi :)
